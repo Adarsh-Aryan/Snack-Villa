@@ -256,6 +256,9 @@ footer{
     .quickSubHeading{
         font-size: 18px;
     }
+    .footer-heading{
+        font-size: 15px;
+    }
 
 }
 
