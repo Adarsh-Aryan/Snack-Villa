@@ -55,6 +55,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 30px;
+    
    
 
 }
@@ -93,7 +94,7 @@
 
 #heading h1{
     color:white;
-    font-size: 30px;
+    font-size: 36px;
     
 }
 
@@ -226,7 +227,7 @@ footer{
 
 @media only screen and (max-width:420px){
     #nav-heading h1{
-        font-size: 25px;
+        font-size: 20px;
 
     }
 
@@ -237,7 +238,7 @@ footer{
         padding-left: 5%;
     }
     #heading h1{
-        font-size: 19px;
+        font-size: 22px;
         
     }
 
