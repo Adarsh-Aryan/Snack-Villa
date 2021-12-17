@@ -1,0 +1,11 @@
+.contentGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2rem;
+    
+}
+
+.item{
+    border: 2px solid black;
+    height:20px;
+}

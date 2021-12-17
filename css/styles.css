@@ -1,0 +1,280 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+
+/* -----------------------------Nav Section---------------------------------------------- */
+#header{
+    
+    height:60px;
+    background-color: rgb(148, 84, 84);
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+}
+
+#header a{
+    text-decoration: none;
+    color: white;
+
+}
+#nav-heading{
+    width:50%;
+    
+    display: flex;
+    align-items: center;
+
+}
+#nav-heading h1{
+    color:white;
+    margin-left: 12px;
+}
+.slogo{
+    width:40%;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+
+.slogo img{
+    width:50px;
+    
+}
+
+/*----------------------------------------------- Search Section---------------------------- */
+#search{
+    
+    width:100%;
+    background-image: url("/images/food-wallpaper.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 30px;
+   
+
+}
+/* #search::before{
+    content: "";
+    background: url("/images/food-wallpaper.png") no-repeat center center/cover;
+    
+    position: absolute;
+    width: 100%;
+
+} */
+#logo{
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    margin:auto;
+    position: relative;
+    top:50px;
+    background-image: url("/images/nukkad\ pe.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 150px;
+    
+   
+}
+
+@keyframes toFro {
+    from{
+       
+        left:0px;
+    }
+    to{
+        left:100px;
+    }
+}
+
+#heading{
+    margin-top: 90px;
+    margin-bottom:70px;
+    display: flex;
+    justify-content: center;
+}
+
+#heading h1{
+    color:white;
+    font-size: 30px;
+    font-family:cursive;
+}
+
+.dropDown{
+    
+  
+    width:70%;
+    display: flex;
+    margin:auto;
+
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+select{
+    height:50px;
+    width:38%;
+    font-size: 18px;
+    
+}
+.Restaurant-selector{
+    width:60%;
+}
+/*----------------------------------- QuickSearch Section-------------------------------------------- */
+#quickSearch{
+  
+    width:80%;
+    margin-left:10%;
+    margin-top:2%;
+    
+}
+
+#quickSearch > span{
+    margin-left:2%;
+}
+
+.quickHeading{
+    display:block;
+    color:Blue;
+    font-size:30px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.quickSubHeading{
+    color:#786f63;
+    font-size:20px;
+    line-height: 2;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.foodComponent{
+   
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+}
+
+.food-card{
+    
+    border: 2px solid black;
+    
+}
+
+.food-img{
+    width:100%;
+    height:200px;
+  
+
+
+}
+
+.food-img img{
+    width:100%;
+    height:200px;
+}
+.food-content{
+    
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+
+/* Footer Class */
+
+footer{
+    background-color: tomato;
+    margin-top:2%;
+
+}
+.footer-heading{
+    text-align: center;
+    font-size:20px;
+    color:white;
+    padding:2%;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* -----------------------------------------Media Query --------------------------------------*/
+@media only screen and (max-width:800px){
+    .dropDown{
+        flex-direction: column;
+        align-items: center;
+    }
+    select{
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+        
+        
+    }
+    .Restaurant-selector{
+        margin-top: 20px;
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width:770px){
+    .foodComponent{
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr) );
+    }
+}
+
+
+
+
+
+@media only screen and (max-width:420px){
+    #nav-heading h1{
+        font-size: 25px;
+
+    }
+
+    .slogo img{
+        width: 45px;
+    }
+    #heading{
+        padding-left: 5%;
+    }
+    #heading h1{
+        font-size: 19px;
+        
+    }
+
+    
+    .foodComponent{
+        display: block;
+    }
+    .food-card{
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width:330px){
+   
+    .quickSubHeading{
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (min-width:600px){
+    #logo{
+        animation: toFro 5s ease-in-out 1s infinite alternate;
+    }
+}
+
+
+
+
+
+
+
+

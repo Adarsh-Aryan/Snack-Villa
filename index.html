@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search Cuisine</title>
-    <link rel="stylesheet" href="./css/search.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap" rel="stylesheet">
-
+    <title>Nutriment Cuisine</title>
 </head>
-
 <body>
     <header id="header">
         <div id="nav-heading">
@@ -18,173 +15,103 @@
             <h1>Snacks Villa</h1>
         </div>
         <div class="slogo">
-            <a href="https://www.facebook.com" target="_blank"><img src="./images/facebook.png" alt="facebook"></a>
-            <a href="https://www.instagram.com" target="_blank"><img src="./images/insta.png" alt="instagram"></a>
-            <a href="https://www.youtube.com" target="_blank"><img src="./images/youtube1.png" alt="youtube"></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="../images/facebook.png" alt="facebook"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="../images/insta.png" alt="facebook"></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="../images/youtube1.png" alt="facebook"></a>
 
 
         </div>
     </header>
-    <h1 id="places">Breakfast Places in Delhi</h1>
-    <div id="foodSearch">
-        <div class="filter">
-            <div class=filter-section>
-                <h1>Filters</h1>
-                
-                <select class="cityLocation">
-                    <option>Select Location</option>
-                    <option>Delhi</option>
-                    <option>Mumbai</option>
-                    <option>Amritsar</option>
-                </select>
-            
-            </div>
-            
-            <div class="filter-section">
-                <h2>Cuisine:</h2>
-                <div class="cuisine">
-                    <div class="cuisine-type">
-                        <input type="checkbox" value=""><span>East-India</span>
-                    </div>
-                    <div class="cuisine-type">
-                        <input type="checkbox" value=""><span>South-India</span>
-                    </div>
-                    <div class="cuisine-type">
-                        <input type="checkbox" value=""><span>Mexican</span>
-                    </div>
-                    <div class="cuisine-type">
-                        <input type="checkbox" value=""><span>Italian</span>
-                    </div>
-                    <div class="cuisine-type">
-                        <input type="checkbox" value=""><span>Japanese</span>
-                    </div>
-                    <div class="cuisine-type">
-                        <input type="checkbox" value=""><span>North-India</span>
-                    </div>
-                    
-                    
-                    
-                   
-                   
-                   
-                    
-                </div>
-               
-            
-            </div>
 
-            <div class="filter-section">
-                <h2>Cost:</h2>
-                <div class="cost-list">
-                    <div class="cost-type">
-                        
-                        <input type="radio" name="costItem"><span>Less than &#8377 200</span>   
-                    </div>
-                    <div class="cost-type">
-                        <input type="radio" name="costItem"><span>&#8377 200 to &#8377 500</span>   
-                    </div>
-                    <div class="cost-type">
-                        <input type="radio" name="costItem"><span>&#8377 500 to &#8377 800</span>   
-                    </div>
-                    <div class="cost-type">
-                        <input type="radio" name="costItem"><span>&#8377 600 to &#8377 1000</span>  
-                    </div>
-                    <div class="cost-type">
-                        <input type="radio" name="costItem"><span>&#8377 1000+</span>   
-                    </div>
-                    
-                  
-                   
-                    
-                </div>
-              
-            
-            </div>
-            <div class="filter-section">
-                <h2>Sort:</h2>
-                <div class="price-range">
-                    <div class="price-type">
-                        <input type="radio" name="price"><span>Price High to low</span> 
-                    </div>
-                    <div class="price-type">
-                        <input type="radio" name="price"><span>Price low to high</span> 
-                    </div>
-                    <div class="price-type">
-                        <input type="radio" name="price"><span>Popurality</span>    
-                    </div>
-                    <div class="price-type">
-                        <input type="radio" name="price"><span>Rating High</span>   
-                    </div>
-                    <div class="price-type">
-                        <input type="radio" name="price"><span>Rating Low</span>    
-                    </div>
-                   
-                    
-                    
-                    
-                    
-
-                </div>
-                
-            </div>
-            
-                
-            
+    <section id="search">
+        <div id="logo">
+           
         </div>
-        <div class="food-card">
-            <div class="food-content">
-                <div class="food-component1">
-                    <div class="food-img">
-                        <img src="./images/burger.jpg" alt="breakfast">
-                    </div>
-                    <div class="food-description">
-                        <h2 class="restaurant-name">Hamburger</h2>
-                        <p class="food-Intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nihil laboriosam, fugit rem sint minima voluptatum est fuga, culpa doloremque maiores accusamus hic expedita et perspiciatis ipsa harum molestiae libero? Veritatis cupiditate ducimus odit.</p>
-                        <h4>Cuisine:Indian</h4>
-                        <h4>Cost : &#8377 150</h4>
-                    </div>
-                </div>
-
-                
-            </div>
-            <div class="food-content middle">
-                <div class="food-component1">
-                    <div class="food-img">
-                        <img src="./images/snacks.png" alt="breakfast">
-                    </div>
-                    <div class="food-description">
-                        <h2 class="restaurant-name">Samosa with Chutney</h2>
-                        <p class="food-Intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nihil laboriosam, fugit rem sint minima voluptatum est fuga, culpa doloremque maiores accusamus hic expedita et perspiciatis ipsa harum molestiae libero? Veritatis cupiditate ducimus odit.</p>
-                        <h4>Cuisine:Euopean</h4>
-                        <h4>Cost : &#8377 200</h4>
-                    </div>
-                </div>
-
-                
-            </div>
-            <div class="food-content ">
-                <div class="food-component1">
-                    <div class="food-img">
-                        <img src="./images/Cafe Tasu.jpg" alt="breakfast">
-                    </div>
-                    <div class="food-description">
-                        <h2 class="restaurant-name">Cafe Tasu</h2>
-                        <p class="food-Intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nihil laboriosam, fugit rem sint minima voluptatum est fuga, culpa doloremque maiores accusamus hic expedita et perspiciatis ipsa harum molestiae libero? Veritatis cupiditate ducimus odit. </p>
-                        <h4>Cuisine:American</h4>
-                        <h4>Cost : &#8377 500</h4>
-                    </div>
-                </div>
-
-                
-            </div>
-
-
+        <div id="heading">
+            <h1>Find the Best Restaurants near you</h1>
         </div>
-    </div>
+
+        <div class="dropDown">
+            <select>
+                <option>-----Select City------</option>
+                <option>Delhi</option>
+                <option>Mumbai</option>
+                <option>Goa</option>
+                <option>Bangalore</option>
+            </select>
+            <select class="Restaurant-selector">
+                <option>-----Select Restaurants------</option>
+                
+            </select>
+        </div>
+    </section>
+
+    <section id="quickSearch">
+       <span class="quickHeading">
+           Quick Search
+       </span>
+       <span class="quickSubHeading">
+           Discover Restaurants By Meal
+       </span>
+       <div class="foodComponent">
+            <div class="food-card">
+                <div class="food-img">
+                    <a href="./html/search.html"><img src="./images/snacks.png" alt="snacks"></a>
+                </div>
+                <div class="food-content">
+                    <h1 class="primary-heading">BreakFast</h1>
+                    <p>Enjoy Your Breakfast Meals</p>
+                </div>
+            </div>
+            <div class="food-card">
+                <div class="food-img">
+                    <a href="./html/search.html"><img src="./images/cham.jpg" alt="cham"></a>
+                </div>
+                <div class="food-content">
+                    <h1 class="primary-heading">Chamcham</h1>
+                    <p>Enjoy Your Breakfast Meals</p>
+                </div>
+            </div>
+            <div class="food-card">
+                <div class="food-img">
+                    <a href="./html/search.html"><img src="./images/nightlife.png" alt="nightlife"></a>
+                </div>
+                <div class="food-content">
+                    <h1 class="primary-heading">NightLife</h1>
+                    <p>Enjoy Your Breakfast Meals</p>
+                </div>
+            </div>
+            <div class="food-card">
+                <div class="food-img">
+                    <a href="./html/search.html"><img src="./images/dominos.png" alt="dominos"></a>
+                </div>
+                <div class="food-content">
+                    <h1 class="primary-heading">HamBurger</h1>
+                    <p>Enjoy Your Breakfast Meals</p>
+                </div>
+            </div>
+            <div class="food-card">
+                <div class="food-img">
+                    <a href="./html/search.html"><img src="./images/ot pizza.png" alt="pizza"></a>
+                </div>
+                <div class="food-content">
+                    <h1 class="primary-heading">Pizza</h1>
+                    <p>Enjoy Your Breakfast Meals</p>
+                </div>
+            </div>
+            <div class="food-card">
+                <div class="food-img">
+                   <a href="./html/search.html"><img src="./images/misthi d.jpg" alt="misthi"></a>
+                </div>
+                <div class="food-content">
+                    <h1 class="primary-heading">Misthi</h1>
+                    <p>Enjoy Your Breakfast Meals</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer>
         <h3 class="footer-heading">CopyWright &copy; Faviourite Meals 2021</h3>
     </footer>
-
 </body>
-
 </html>
