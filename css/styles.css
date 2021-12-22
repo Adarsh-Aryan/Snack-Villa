@@ -191,13 +191,6 @@ footer{
     }
 
 }
-@media only screen and (max-width:750px) and (min-width:400px){
-   
-}
-
-
-
-
 
 @media only screen and (max-width:420px){
     #nav-heading h1{
@@ -212,7 +205,7 @@ footer{
         padding-left: 5%;
     }
     #heading h1{
-        font-size: 22px;
+        font-size: 28px;
         
     }
 
